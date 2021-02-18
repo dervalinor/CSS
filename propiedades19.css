@@ -27,3 +27,33 @@ color, 0 is none color and 255 all the color */
 	border: 4px solid rgb(130, 0, 255); /*We can combine the color*/
 	background-color: rgb(0, 255, 250);
 }
+
+.color3 {
+	width: 400px;
+	height: 400px;
+	margin-top: 20px;
+	border: 4px solid blue;
+	background: rgb(255, 255, 0);/*Here exist a exception, when we combine red and green
+	give the yellow */	
+}
+
+.color4 {
+	width: 400px;
+	height: 400px;
+	margin-top: 20px;
+	border: 4px solid blue;
+	background: rgba(255, 255, 0, 0.5);/*rgba use for opacity, where the opacity (color of background) is give as four parameter*/
+}
+
+/*System hexadecimal: system of 6 units, then for count we use the letter a, b, c, d, e y f*/
+
+.color5 {
+	width: 400px;
+	height: 400px;
+	margin-top: 20px;
+	border: 4px solid blue;
+	background: #f00a;/*f is value maximum value, the first three letter are for color red, green and blue, the other letter are
+	for opacity of the color */	
+	/*a - minimum value of the color or the opacity
+	f- maximum value of the color or the opacity */	
+}
