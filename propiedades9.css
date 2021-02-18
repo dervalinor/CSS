@@ -1,0 +1,7 @@
+.caja-fija {
+	position: sticky;/*Similar to fixed but it conserve the space and choose part where the text or menu will fixed*/
+	background: orange;
+	opacity: .6;
+	top: 0;
+	margin-top: 100px;
+}

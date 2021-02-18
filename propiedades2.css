@@ -1,0 +1,50 @@
+h1 {
+	padding: 20px 30px; /*20px for top and bottom, 30px for right and left */
+	background-color: orange;
+	display: inline-block;
+}
+
+h2 {
+	padding: 20PX 30PX 25px 25px; /*20px for top, 30px right, 25px bottom, 25px left */
+	background-color: yellow;
+	display: inline-block;
+}
+
+h3 {
+	height: 100px;
+	width: 100px;
+	padding: 20px;
+	background-color: blue;
+	box-sizing: content-box;/*include all the change height, width and padding, this value are sum */
+}
+
+.tma {
+	height: 300px;
+	width: 300px;
+	padding: 20px;
+	background-color: blue;
+	box-sizing: border-box;/*respect to the padding */
+	text-align: center;/*center text */	
+	margin: 10px; /*margin of 10px for all the side, other option equal to padding */
+	border-radius: 50px; /*how many round off the border */
+	box-shadow: 2px 4px 15px 0 #000;/*give shodow to the page, first move in the axis x and y, after the size of 
+	the shadow, size of border and last the color*/
+	text-shadow: 2px 3px 7px #fff;/*shadow for text, axis x and y, sketchy */
+}
+
+.rotar {
+	transform: rotate(45deg);/*We can rotate the element */
+	background-color: blue;
+
+}
+
+/*margin is the space between the two box: 
+Exist margin top, bottom, right and left*/
+
+/*Box mode */
+
+/*content: is inside of the box (text, image, ...), we can modify for line-height, hierarchy 1 ;
+padding: modify with padding; hierarchy 2 
+border: modify with border; hierarchy 3
+margin: modify with margin* hierarchy 4/
+/*Order of hierarchy: 1, 2 , 3 and 4; */

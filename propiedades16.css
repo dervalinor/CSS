@@ -1,0 +1,65 @@
+.caja1 {
+	height: 200px;
+	width: 200px;
+	background: slateblue;
+	border: 3px solid blue;
+}
+
+.caja1:hover {/*when pass the mause then show the effect or event */
+	background: red;/*Effect: change of color; */
+	/*we can modify the size of the effect */
+	height: 300px;
+	width: 300px;
+	/*and with transition can change the velocity of the transition of change of effect */
+	transition: background 1s, height 1s, width 1s; /*all 1s for all change in a second */
+	border: 3px solid green;
+
+}
+
+/*Pseudo-class link: change the effect of link no visited; */
+
+.LINK {
+	margin: 30px;
+	display: block;
+}
+
+.LINK:link {
+	color: red;/*the link of color red because no visited */
+}
+
+.LINK:visited {/*Change the style of a link visited */
+	color: violet;
+	background-color: blue;
+}
+
+.caja2 {
+	width: 300px;
+	height: 300px;
+	background: red;
+	transition: all 1s;
+	margin: 6px;
+}
+
+.caja3 {
+	width: 100px;
+	height: 50px;
+	background-color: green; 
+}
+
+.caja4 {
+	margin: 30px;
+}
+
+.caja2:active { /*hold press the click right change of effect */
+	background: blue;
+	width: 600px;
+}
+
+.caja3:focus {/*Similar to active but for input, moreover when the element is selected */
+	background: orange;
+	width: 600px;
+}
+
+.caja4 b:lang(en){/*Show a effect for a language (en-english, es-espanish ...)*/
+	color: red;/*Show in color red the text in english */
+}

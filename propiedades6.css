@@ -1,0 +1,43 @@
+/*After we will give the position to each box in the container(caja 1 up right, caja 2 up left, caja 3 down right and caja 4 down left) */
+
+*{
+	font-family: cursive;
+	font-weight: 100;
+	font-size: 30px;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+div {
+	display: block;
+	background-color: yellow;
+	position: absolute; /*setting to the size of the box */
+}
+
+div div { /* selection of div inside of div */
+	height: 70px;
+	width: 70px;
+	background: yellow;
+}
+
+.contener{
+	position: static;
+	border: 4px solid red;
+	background: green;
+	margin: 100px;
+	margin: 50px auto; /*for center all the direction with 50px */
+	height: 400px;
+	width: 400px;
+}
+
+
+
+.caja1 {
+}
+
+.caja2 {
+}
+
+.caja3 {
+}

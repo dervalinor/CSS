@@ -1,0 +1,26 @@
+/*use of before and after, function in element inline and block */
+
+/*before: text or content before of text in html; */
+
+b {
+	padding: 6px;
+	width: 100%;
+}
+
+b::before { /*text before to the letter "a" of html*/
+	content: "me suscribi ";
+	color: blue;
+}
+
+b::after {
+	content: " soy_dato";
+	color: red;
+}
+
+/*Pseudo-class:
+	-hover: put effects when the mause this over of the element ;
+	-link
+	-visited
+	-activite
+	-focus
+	-lang; */

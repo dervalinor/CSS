@@ -1,0 +1,46 @@
+/*Property of text */
+.tama {
+  font-size: 25px;
+}
+
+.tama-letter__h3 {
+  font-size: 2em;
+  font-family: 'Yusei Magic' ,Georgia;/*Style of letter, the comma use for if find not the first style (for this case Oswald), search the second style (Georgia)*/
+  line-height: 3;/*space occupied in height for the letter*/
+  font-weight: 900;/*grosor de la letra */
+  color: blue;
+}
+
+/*normalize.css remove all the styles for default of the browser and so we
+ could use any style */
+
+/*Theory of box: exist in html two type of box:
+1. Element in block: occupied all the space, are the much important
+2. Element in line: occupied only the space of the content  */
+
+/*Change the behavior of the elements with option of display
+Example: h2 now behavior as a element of line */
+
+h2 {
+	display: inline;
+}
+
+/*the elements in block we can give height and width but no to elements in line */
+
+p {
+	height: 400px;
+	width: 200px;
+}
+
+/*Property of box*/
+
+h4 {
+	background-color: green;
+	display: inline-block;
+	/*Distance between the text and the border of the box */
+	padding-left: 25px;/*Exist the padding left, right, top and bottom */
+	padding-right: 25px;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	/*padding: 20px; for put to the padding 20px */
+}

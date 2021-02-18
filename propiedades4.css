@@ -1,0 +1,46 @@
+/*Now we will learning of the property position */
+
+*{
+	font-family: cursive;
+	font-weight: 100;
+	font-size: 30px;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+div {
+	width: 120px;
+	height: 120px;
+	display: inline-block;
+}
+
+.caja1 {
+	background: blue;
+}
+
+.caja2{
+	background: yellow;
+	position: relative;/*for conserve the space where is the box */
+	top: 30px;/*Indicate move 20px to down*/
+	left: 20px;/*Move to the right */
+	/*exist for move to right, left and up(bottom)  */
+	z-index: 10;
+}
+
+.caja3{
+	background: red;
+	position: relative;
+	right: 10px;
+	bottom: 20px;
+	/*Top and left have major hierarchy than right and bottom, if top or left isn't then right and bottom could use */
+	/*z-index for put this box over box 2 */
+	z-index: 100;/*greatest number is over the other boxes */
+}
+
+.caja4{
+	background: orange;
+}
+
+/*Position have the options: static(for default), relative, absolute, fixed and sticky; */
+

@@ -1,0 +1,47 @@
+/* outline: shorten code
+Example:
+
+.caja1 {
+	width: 200px;
+	height: 200px;
+}
+
+.caja2 {
+	width: 200px;
+	height: 200px;	
+}
+we can write as: */
+
+.caja1, .caja2 {
+	width: 200px;
+	height: 200px;
+} /*give a two class, the same property */
+
+.caja3{
+	width: 200px;
+	height: 200px;
+	background: yellow;
+	margin: auto;
+	display: outline-block;
+	outline: 10px solid blue;/*as the border but no ocuppy space of the element and no move element
+	USE FOR LOCALIZE A OBJECT OR MARK ELEMENTS */
+}
+
+.caja4 {
+	width: 200px;
+	height: 200px;
+	background: yellow; 
+	display: outline-block;
+	margin: auto; /*Center the text use in element of block*/  
+	position: relative;/*see exact position of the box */
+}
+
+.caja5{
+	width: 200px;
+	height: 200px;
+	background: yellow; 
+	display: outline-block;
+	margin: auto;
+	outline: 10px solid red;
+	position: relative;/*see exact position of the box number 5 */
+}

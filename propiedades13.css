@@ -1,0 +1,13 @@
+.contenedor {
+	margin: auto;
+	margin-top: 50px;
+	border: 4px solid black;
+	background: grey;
+	width: 50%;
+}
+
+img{
+	width: 50%;
+	float: right;/*the text wrap the image */
+	margin-left: 20px;/*create a margin of separation of image and the text */
+}

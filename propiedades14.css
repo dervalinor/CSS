@@ -1,0 +1,54 @@
+/*Pseudo-elements:
+
+1. first-line: BLOCK
+2. first-letter: BLOCK
+3. placeholder: 
+	-after: sons- content(necessary) - INLINE;
+	-before: sons - contenet(necessary) - INLINE;
+	-selection: ; */
+
+.texto {
+	padding: 20px;
+}
+
+/*Pseudo-element create from an element */
+
+.texto::first-line {/*here with first line can edit the first line of the text */
+	color: blue;
+}
+
+.texto2::first-letter { /*this action only affect to the first letter */
+	color: orange;
+	font-size: 30px;
+}
+
+/*first-line and first-letter only function in block */
+
+/*Placeholder:  */
+
+form {
+	margin: 100px auto;/* auto for centar the content*/
+	display: block;
+	background-color: blue;
+	padding: 20px;
+	width: 50%;
+}
+
+input {
+	padding: 6px;
+	width: 100%;
+}
+
+input::placeholder { /*Change the style of the attribute of input placeholder */
+	color: green;
+}
+
+input::selection{ /*change the color of selection of a text */
+	color: yellow;
+	background-color: grey;
+}
+
+p::selection{
+	color: green;
+	background-color: orange;
+}

@@ -1,0 +1,10 @@
+body {
+	padding-top: 100px; /*can see the content behind of the text fixed */
+}
+
+.caja-fija {
+	position: fixed;
+	background: orange;
+	opacity: .6;
+	margin: -100px;
+}

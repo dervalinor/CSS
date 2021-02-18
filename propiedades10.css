@@ -1,0 +1,34 @@
+/*The display modify the behavior of the box
+
+Display: property are:
+1. block: this element occupied all the space;
+2. inline: only occupied the space of the content, use generally for text;
+3. inline-block: change the behavior of a element in block to inline;
+4. table
+5. inline-table
+6. list-item
+7. table-cell
+8. table-row
+9. table-column
+10. grid
+11. flex
+12. inline-flex
+13. inline-grid; */
+
+div {
+	width: 150px;
+	height: 150px;
+	margin: 20px;
+	border: 10px solid red;
+	background: yellow;
+	display: inline-block;/*divs ocuppied only the content (inline)*/
+}
+
+b {/*elements inline can't change the width and height, but if we change the inline to block, we can change the width and height */
+	width: 300px;
+	height: 300px;
+	margin: 20px;
+	border: 10px solid red;
+	background: yellow;
+	display: block;	
+}
