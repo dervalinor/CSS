@@ -1,0 +1,61 @@
+/*Now we will studying the Object-fit (Use for the modify an image):
+- contain
+-cover
+-None
+-scale-down; */
+
+.caja1{
+	width: 300px;
+	height: 500px;
+}
+
+.caja1 img {
+	width: 100%;
+	height: 100%;
+	border: 2px solid black;
+	object-fit: contain;/*the image modify accoding to the box */
+	/*contain: image center in the box; */
+}
+
+/*Too we can adapt the image to the size of the box */
+
+.caja2 {
+	width: 300px;
+	height: 300px;
+	padding-top: 30px;
+}
+
+.caja2 img {
+	width: 100%;
+	height: 100%;
+	border: 2px solid orange;
+	object-fit: cover;/*adapt the size of the image */
+}
+
+.caja3 {
+	width: 300px;
+	height: 300px;
+	padding-top: 30px;	
+}
+
+.caja3 img {
+	width: 100%;
+	height: 100%;
+	border: 2px solid blue;
+	object-fit: none; /*put the image with the resolution original or real and NOT adapt to the 
+	contain of the box*/
+}
+
+.caja4 {
+	width: 400px;
+	height: 600px;
+	padding-top: 30px;
+}
+
+.caja4 img {
+	width: 100%;
+	height: 100%;
+	border: 2px solid red;
+	object-fit: scale-down;/*search the property of object-fit better for the image, other words
+	take the lesser resolution of the image for box */	
+}
