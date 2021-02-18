@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Especificidad</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" text="text/css" href="estilo2.css"><!--REMEMBER:
+    EXPORT THE FILE CSS -->
+  </head>
+
+  <body>
+    <article>
+      <section>
+        <h2 class="AZUL" pintar="naranja" id="violeta"
+          >Class have major hierarchy</h2>
+        <h3 class="AZUL" style="color:green">Style in line </h3>
+          <!--Painted green,
+          because the style in line have major hierarchy than class, id and
+          attribute-->
+        <h4 class="AZUL">IMPORTANT </h4>
+      </section>
+      
+      <!--Methodology of Bim -->
+      <div class="form">
+        <input type="text" class="form__input--pintar"><!--Heretage of the class form
+        for to the element input, where pintar is select this input and paint,
+        we can use pintar for other elements-->
+        <input type="text" class="form__input">
+        <h3 class=form__input--pintar>Pintar </h3>
+      </div>
+
+      <!--Measure relative -->
+      <div class="tama">
+        <h3 class="tama-form-h3">MEASURE FIXED</h3>
+      </div>
+
+      <div class="rela">
+        <h3 class="rela-form-h3">MEASURE RELATIVE</h3>
+      </div>
+
+      <a href="propiedades.html">NEXT</a>
+
+    </article>
+  </body>
+
+</html>
