@@ -1,0 +1,10 @@
+.flex-container {
+	display: flex; /*the flex have behavior as block but we can modify the elements inside the element */
+}
+
+.flex-item {
+	background: #248;
+	color: #fff;
+	padding: 10px;
+	margin: 10px;
+}

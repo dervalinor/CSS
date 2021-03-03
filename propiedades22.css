@@ -1,0 +1,18 @@
+/*row-reverse we can change the direction of the elements in main axis as is showing in this example where the first 
+box of color orange change the position to the last position */
+.flex-container {
+	display: flex;
+	flex-direction: row-reverse;/*change the order of the element in the main axis */
+}
+
+.flex-item {
+	background: #248;
+	color: #fff;
+	margin: 10px;
+	height: 200px;
+	width: 200px;
+}
+
+.naranja {
+	background-color: orange;
+}

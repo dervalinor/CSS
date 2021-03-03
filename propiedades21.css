@@ -1,0 +1,31 @@
+/*Flexbox:
+
+container and content
+
+1- flex container - flex item
+2- main axis(main start - main end)
+3- cross axis (cross start - cross end)
+
+property:
+
+1- flex-direction
+2- flex wrap: No-wrap - wrap - wrap-reverse; 
+3- flex-flow: flex-direction - flex-wrap
+4- justify-content: center, space around, 
+space-between, space-evenly (main axis)
+5- align item: flex-start, center, flex-end, stretch, base-line (cross axis)
+6. align-content*/
+
+.flex-container {
+	display: flex; /*the flex have behavior as block but we can modify the elements inside the element */
+	flex-direction: column; /*the property the flex apply to the element contianer for affect to elements inside 
+	of this. Column change the direction of the main axis */
+}
+
+.flex-item {
+	background: #248;
+	color: #fff;
+	margin: 10px;
+	height: 200px;
+	width: 200px;
+}
