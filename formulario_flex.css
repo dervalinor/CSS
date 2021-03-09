@@ -1,0 +1,61 @@
+* {
+	font-weight: 100;
+}
+
+body {
+	background: blue;/*CAN MODIFY THE BODY, WE CAN MODIFY ANY LABEL HTML */
+}
+
+.flex-container{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;/*all the elements for responsive */
+	justify-content: center;
+	margin: 100px 40px;
+	background: #006092;
+}
+
+.form{
+	min-width: 400px; 
+	flex:1;/*Remember than the first parameter of the flex is 
+	flex-grow, where this take the free space and distribute between the flex boxs */
+	text-align: center;
+	padding: 40px;
+}
+
+.form-input {
+	width: 40%;
+	padding: 7px;
+	margin: 9px 0;
+	border: none; /*Remove the border for default*/
+	border: 4px solid blue;
+	background: transparent;
+}
+
+.form-input:focus {
+	background: linear-gradient(to bottom, transparent, blue); /*we can create a gradient of color */
+	outline: none;
+}
+
+.form textarea {
+	min-height: 120px;
+	resize: none; /*textarea have a fixed size*/ 
+}
+
+.form-img {
+	flex: 1;
+	padding: 10px;
+	display: flex;
+	order: 2;
+}
+
+.form-img img {
+	width: 60%;
+	margin: auto;
+	border-radius: 50%;
+	padding: 20px;
+}
+
+.form input[type="submit"]{ /*selection for element */
+	background-color: #1c7;
+}

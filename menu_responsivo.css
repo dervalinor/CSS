@@ -1,0 +1,98 @@
+.nav__responsivo--ul {
+	display: none;
+}
+
+.nav {
+	background: darkslateblue;
+}
+
+.nav__li {
+	display: inline-block;
+	padding: 10px;
+	color: #fff;/*color white for icon */
+}
+
+/*put effect when pass over the mause in the menu (hover)*/
+.nav__li:hover > a { /*when pass the mause over the link */
+	color: #bbb;
+}
+
+.nav__li:hover {
+	color: #bbb;
+}
+
+.nav__li a { 
+	color: #fff; /*color for the letters of link */
+	text-decoration: none;/*remove the underlined */
+}
+
+.nav__li i {
+	box-sizing: border-box;
+	text-align: right;
+	margin-left: 5px;
+}
+
+.nav__responsivo-button-container {
+	position: absolute;
+	width: 100%;
+	font-size: 25px;
+	background-color: #69c;
+	margin-top:-74px;
+}
+
+.nav__responsivo-button {
+	padding: 6px 25px;
+	text-align: right;
+	width: 100%; 
+}
+
+@media only screen and (max-width: 500px){
+	/*first we hiden the main menu and show the menu responsive */
+	.nav__ul {
+		display: none;
+	}
+
+	.nav {
+		height: 37px;
+		width: 100%;
+	}
+
+	.nav__responsivo-ul {
+		display: block;
+		position: absolute;
+		width: 100%;
+    	margin-top: 37px;
+    	padding-top: 37px;
+    	top: -100%;
+	}
+
+	.nav__li-container {
+		position: relative;
+		top: -1000px;
+		height: calc(100vh - 64px);
+		background: #9bf;
+		width: 75%;
+	}
+
+	.nav__responsivo-li {
+		width: 100%;
+    padding: 9px 20px; 
+	}
+
+	.niv__responsivo-li i {
+		box-sizing: border-box;
+		text-align: center;
+		margin-right: 5px;
+		width: 50px;
+		color: #016; 
+	}
+
+	.nav__responsivo-li a {
+		color: #016;
+    text-decoration: none;    
+	}
+
+	.nav__responsivo-ul:hover > .nav__li-container {
+		top: -27px;
+	}
+}
