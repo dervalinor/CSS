@@ -1,46 +1,66 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <title>Especificidad</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" text="text/css" href="estilo2.css"><!--REMEMBER:
-    EXPORT THE FILE CSS -->
-  </head>
+<head>
+	<title>HTML</title>
+</head>
 
-  <body>
-    <article>
-      <section>
-        <h2 class="AZUL" pintar="naranja" id="violeta"
-          >Class have major hierarchy</h2>
-        <h3 class="AZUL" style="color:green">Style in line </h3>
-          <!--Painted green,
-          because the style in line have major hierarchy than class, id and
-          attribute-->
-        <h4 class="AZUL">IMPORTANT </h4>
-      </section>
-      
-      <!--Methodology of Bim -->
-      <div class="form">
-        <input type="text" class="form__input--pintar"><!--Heretage of the class form
-        for to the element input, where pintar is select this input and paint,
-        we can use pintar for other elements-->
-        <input type="text" class="form__input">
-        <h3 class=form__input--pintar>Pintar </h3>
-      </div>
 
-      <!--Measure relative -->
-      <div class="tama">
-        <h3 class="tama-form-h3">MEASURE FIXED</h3>
-      </div>
+<body>
+	<h1>LIST </h1>
+	<h2>List no ordered</h2>
 
-      <div class="rela">
-        <h3 class="rela-form-h3">MEASURE RELATIVE</h3>
-      </div>
+	<ul>
+		<li>HTML</li>
+		<li>CSS</li>
+		<li>JAVASCRIPT</li>
 
-      <a href="propiedades.html">NEXT</a>
+	</ul>
 
-    </article>
-  </body>
+	<h2>List ordered</h2>
+	<ol>
+		<li>HTML</li>
+		<li>CSS</li>
+		<li>JAVASCRIPT</li>		
+	</ol>
+	<br>
+	<br>
+	<h2>IMAGE</h2>
+	<h3>Megumin </h3>
+	<img src="IMAGE/image2.jpg" width = "200px"><!--Attribute of width we can modify the size of
+	the image-->
+	<h3>Nude wallpaper </h3>
+	<img src="IMAGE/image3.jpg" height="300px"><!--height too modify size -->
+	<!--BEST USE CSS FOR CHANGE SIZE OF THE IMAGE -->
+
+	<h1>VIDEO </h1>
+	<h2>BEAUTIFUL</h2>
+	<video scr = "VIDEOS/Facebook 361664348404167(720p).mp4" controls><!--controls for
+	access to the controls of the video -->
+	</video>
+	<br>
+	<br>
+	<h2>AUDIO</h2>
+	<audio scr="AUDIO/K-391 - Everybody [NCS Release](MP3_160K).mp3" controls></audio>
+
+  <!--For a better ordered use div, divide or organize the content of the website -->
+  <!--The div are very useful in CSS, because is very import use div in the
+    website -->
+    <div>
+      <h1>The Promised Neverland </h1>
+		<h1>List for watch now</h1>
+		<h2>The Promised Neverland </h2>
+		<p>
+			The 38 children of the Grace Field House orphanage are all living
+			happily with their "Mom", Isabella, treating her as if she were their
+			real mother.One day, one of the children leaves the orphanage to live
+			with her new foster family...
+		</p>
+    </div>
+
+    <a href="formulario.html">NEXT</a>
+
+</body>
+
 
 </html>
