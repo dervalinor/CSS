@@ -2,7 +2,8 @@
 box of color orange change the position to the last position */
 .flex-container {
 	display: flex;
-	flex-direction: row-reverse;/*change the order of the element in the main axis */
+	flex-direction: row-reverse;/*change the order of the element in the main axis. For default the direction of
+	elements is left to right, but with row-reverse is right to left, this is equal for column-reverse */
 }
 
 .flex-item {

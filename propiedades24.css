@@ -1,0 +1,57 @@
+.flex-container {
+	display: flex;
+	flex-wrap: wrap-reverse;/*instead of put the box down when the screen is shrinking put
+	up */
+}
+
+.flex-item {
+	background: #248;
+	color: #fff;
+	margin: 10px;
+	height: 100px;
+	min-width: 100px; 
+	text-align: center;
+}
+
+.naranja {
+	background-color: orange;
+}
+
+.green {
+	background-color: green;
+}
+
+.caja-flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center; /*use for center, space-around, space between... the element of flex box */
+}
+
+.flex-elem {
+	background: orange;
+	margin: 10px;
+	height: 100px;
+	min-width: 100px; 	
+}
+
+/*Now we will seeing how work with the across axis, align item (use for a only line of flex elements) and align content (use for more only line of flex element)*/
+
+.caja-flex1 {
+	display: flex;
+	flex-wrap: wrap;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;/*center content respect a across axis */
+	/*Properties of align items and align content:
+	1- center
+	2- flex-end (put elements to the end of the div)
+	3- flex-start (put elements to the beggining of the div)
+	 */
+}
+
+.flex-elem1 {
+	background: blue;
+	margin: 10px;
+	height: 100px;
+	min-width: 100px; 	
+}

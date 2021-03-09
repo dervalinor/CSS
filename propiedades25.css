@@ -1,0 +1,13 @@
+.caja-flex {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;/*case of more of one line of flex elements, each element pass to
+	down */
+}
+
+.flex-elem {
+	background: orange;
+	margin: 10px;
+	height: 100px;
+	min-width: 100px; 	
+}

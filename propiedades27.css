@@ -1,0 +1,17 @@
+/*Now we will seeing the margin for flexbox */
+.caja-flex1 {
+	display: flex;	
+	flex-wrap: wrap;
+	height: 100vh;
+}
+
+.flex-elem1 {
+	background: blue;
+	margin: 10px;
+	height: 100px;
+	min-width: 100px; 	
+	margin-left: auto; /*the box take the position of the right (opposed to left), similar for
+	top, where the box take the position of bottom... 
+	margin: auto; we can center the box in the center of the page*/
+
+}

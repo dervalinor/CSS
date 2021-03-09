@@ -1,0 +1,52 @@
+/*Flex-grow: this property take the free space and distribute between the box, where this change the size for
+occupy all the free space */
+
+.caja-flex1 {
+	display: flex;	
+	flex-wrap: wrap;
+ }
+
+.flex-elem1 {
+	background: blue;
+	margin: 10px;
+	height: 270px;
+	min-width: 270px; 	
+	flex-grow: 1;
+}
+
+.caja-flex2 {
+	display: flex;	
+	flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.flex-elem2 {
+	background: blue;
+	margin: 10px;
+	height: 100px;
+	min-width: 100px; 	
+}
+
+.verde {
+	background: green;
+	flex-grow: 1; /*the flex-grow can give to an only box */
+}
+
+.caja-flex3 {
+	display: flex;	
+	flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.flex-elem3 {
+	background: blue;
+	margin: 10px;
+	height: 100px;
+	min-width: 100px; 	
+}
+
+.flex-basis {
+	background: green;
+	flex-basis: 200px; /*Similar to the width but for the 
+	flex and have major important*/ 
+}

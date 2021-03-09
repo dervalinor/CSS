@@ -1,0 +1,27 @@
+/*Property of the item: the item are the elements than is inside the box cointainer and are affect for
+flexbox:
+1- align-self (across axis)
+2- margin (direction)
+3- flex-grow
+4- flex-shrink
+5- flex-basis
+6- flex (flex-grow)
+7- order*/
+
+.caja-flex1 {
+	display: flex;	
+	flex-wrap: wrap;
+	height: 100vh;/*importan use for utilize the align-self */
+}
+
+.flex-elem1 {
+	background: blue;
+	margin: 10px;
+	height: 100px;
+	min-width: 100px; 	
+}
+
+.verde {
+	background: green;
+	align-self: flex-end; /*align-self let only move the elements selected */
+}

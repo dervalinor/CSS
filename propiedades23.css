@@ -1,0 +1,31 @@
+/*When the screen is shrinking the box change its size, but we want than each box pass to down*/
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;/*This property let us to send the box to down the screen is shrinking.
+	respect the width the box and change the size of this 
+
+	we can resume the code:
+	flex-direction: column;
+	flex-wrap: wrap;
+
+	with the code line:
+	flex-flow: column wrap; */
+}
+
+.flex-item {
+	background: #248;
+	color: #fff;
+	margin: 10px;
+	height: 200px;
+	min-width: 100px; /*minimum value of width and it can increase*/
+	text-align: center;
+}
+
+.naranja {
+	background-color: orange;
+}
+
+.green {
+	background-color: green;
+}

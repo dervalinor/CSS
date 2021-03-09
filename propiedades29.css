@@ -1,0 +1,45 @@
+/*flex-shrink: indicate the space for give when the box is shrinking; */
+
+.caja-flex1 {
+	display: flex;	
+}
+
+.flex-elem1 {
+	background: blue;
+	margin: 10px;
+	height: 100px;
+	flex-grow: 1;
+	flex-basis: 300px;
+	/*this is equal to: flex: 1, 0, 300px; */
+	/*Flex: this property change at the same time the property of flex-grow, flex-shrink and flex-basis, the first parameter is 
+	obligatory */
+}
+
+.flex-shrink {
+	background: orange;
+	flex-shrink: 2; /*the space to give is the 2 or double times when all the box
+	will shrinking*/
+}
+
+/*Order: this is similar to z-index (as is overhead each element in the axis z) but for the main axis*/
+
+.caja-flex2 {
+	display: flex;
+}
+
+.flex-elem2 {
+	background: blue;
+	margin: 10px;
+	height: 100px;
+	flex-grow: 1;
+	flex-basis: 300px;
+}
+
+.ultimo {
+	text-align: center;
+	color: #fff;
+	background: green;
+	order: 100; /*this element will in the last position of main axis */
+	/*forever this element with major value of order will the last position where the direcction of main axis */
+	/*the order let to organizate the box*/ 
+}
