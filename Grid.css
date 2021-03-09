@@ -1,0 +1,51 @@
+/*Grid: this property is of display, similar to flex, where the elements are as table with rows and columns and each elements of 
+the grid are as cells of excels called items, equal flex the grid affect to only the first and no to its elements sons, 
+similar to flex.
+
+-concept of grid
+
+1- Grid container
+2- Grid item
+3- Grid cell 
+4- Grid tracks (column and row): select a column and row
+5- Grid area: area formed of item
+6- Grid line (column line and row line): are the lines where this divide the grid in items
+
+its properties:
+
+1- grid-template-rows (grid container)
+2- grid-template-column (grid container)
+3- grid-row-gap (grid container)
+4- grid-column-gap (grid container)
+5- grid-gap: row column (grid container)
+6- grid-row-start (grid item)
+7- grid-row-end (grid item)
+8- grid-column-start (grid item)
+9- grid-column-end (grid item)
+10- grid-row (grid item)
+11- grid-column (grid item)
+
+*/
+
+body {
+	background: radial-gradient(circle, #fff, #bbb);
+	padding: 20px;/*space between the page and the element*/
+}
+
+.grid-container {
+	display: grid;/*Now we create grid items but with only a column */
+	grid-template-rows: 100px 120px 100px; /*indicate the numbers of rows of grid and rows with its measure
+	in this case are 3 rows, row1 with 100px, row 2 100px and row 3 100px*/
+	grid-template-columns: 100px 100px 1fr; /*equal than for the rows, but with fr we can give the free space to column 3*/
+	border: 3px solid #000;
+	grid-gap: 10px; /*let us separate the cell 10px
+	grid-row-gap: for separate only the rows;
+	grid-column-gap: for separate only the columns; */
+	background: #333;
+
+}
+
+.grid-item {
+	border: 2px solid #000;
+	background: #999;
+}
