@@ -1,0 +1,42 @@
+/*grid dynamic: use for create a grid flex, where each element will ordering according to the size of the website,
+resolution of the screen
+
+values use in the repeat:;
+
+- minmax()
+- min-content
+- max-content
+
+for quantiy:
+
+- auto-fill
+- auto-fit
+ */
+body {
+	background: radial-gradient(circle, #fff, #bbb);
+	padding: 20px;
+}
+
+.grid-container {
+	/*make the fix to the content we use the min-content and max-content*/
+	display: grid;
+	grid-template-columns: repeat(3, minmax(min-content, 200px)); /*the space of the grid will the minimum content, while with 
+	max-content the space will the maximum content, minmax the minimum value and maximum for the measure of the grids */
+	grid-template-rows: repeat(3, 150px); 
+	grid-auto-rows: 1fr;
+	grid-auto-columns: 1fr; 
+	border: 3px solid #000;
+	background: #333;
+	grid-auto-flow: dense; 
+}
+
+.grid-item {
+	border: 2px solid #000;
+	background: #999;
+}
+
+.grid-item:first-child {
+}
+
+.grid-item:nth-child(5){
+}

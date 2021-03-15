@@ -21,6 +21,8 @@ body {
 	/*as for default the elements implicit behavior row but we can change the behavior as grid-auto-flow */
 	grid-auto-flow: column; /*Repeat only function for column for implicit */
 	grid-auto-flow: dense; /*fill in all the empty space between cell */
+	grid-auto-rows: 1fr;
+	grid-auto-columns: 1fr; /*we can give fr to the content implicit */
 }
 
 .grid-item {
