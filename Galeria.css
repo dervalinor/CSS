@@ -1,0 +1,29 @@
+body {
+	background: radial-gradient(circle, #fff, #bbb);
+	padding: 20px;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	grid-auto-rows: 100px; /*for the element implicit */
+	grid-gap: 10px; /*Distance of separation between images*/
+}
+
+.grid-item {
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover; /*adapt the image to the size of the grid */
+}
+
+img:first-child {
+	grid-column: 1 / 3; /*the image 1 occupied two space of cell 1 and cell 3 */
+	grid-row: 1 / 3;
+}
+
+img:nth-child(5) {
+	grid-row: spam 3;
+}
