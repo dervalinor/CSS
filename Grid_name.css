@@ -1,0 +1,39 @@
+/*Line-name: for replace the grid-row and grid-column */
+/*Shorthand
+grid-template */
+
+body {
+	background: radial-gradient(circle, #fff, #bbb) /*Effect grey-while of the all website */
+}
+
+.grid-container {
+	background: #444;
+	display: grid; 
+	/*when haven't names  */
+	grid-template-rows: 
+	[line-1] /*Now we can give the name of the rows and columns with the clasp*/
+	150px
+	[line-2] 
+	150px 
+	[line-3]
+	150px
+	[line-4];
+	grid-template-columns: 
+	[line-inicial]
+	150px 
+	150px 
+	[line-final]
+	150px;
+}
+
+.grid-item {
+	border: 5px solid #000;
+	background: #fff;
+}
+
+.grid-item:first-child {
+	background: red;
+	/*create area of two rows and two columns for line-name */
+	grid-row: line-1 / line-3;/* grid-row: 1 / 3;*/
+	grid-column: line-final / line-inicial; /*grid-column: 1 / 3; */
+}
