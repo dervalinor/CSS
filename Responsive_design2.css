@@ -1,0 +1,53 @@
+/*Responsive design: concept for adapt all the content of website to different resolutions
+- struct flex (flex container, pictures and flex video)
+
+-Media Queries (@media): this are conditions for different resolutions 
+@media use for make consult for apply style and different types / device of medium
+
+-hight and width of windows graph
+-hight and width of device
+-orientation (according to is tablet or phone)
+-resolution
+
+Atributes of responsive design
+- all: appropriate for all device
+- print: for element to print
+- screen: for the screen (MOST USED)
+- speech: synthesizer of voice
+
+Operator: AND / OR
+
+AND -- Where must  comply two conditions
+OR --Where must comply only a condition
+
+orientation: landscape(Resolution of pc where the width is greater than hight) and portrait(Resolution of phone where the height is 
+greater than width)*/
+
+
+/*USE CTRL + +/- FOR SEE EFFECTS */
+body {
+	background: grey;
+}
+
+.div-responsive {
+	background: #95c;
+}
+
+/*we will create the website where according to the resolution show different things, exist two metodology: 
+mobile first(priority mobile): this will adapt to higher resolutions (RECOMMEDED)
+desktop first: website first for pc and after adapt the resolution to a mobile*/
+
+/*first @media attribute conditional */
+@media screen and (min-width: 400px) and (max-width: 600px)/*use for screen where this screen have as minimum value of resolution of 400px
+and maximum value of 600px, if this is true then change the color of div-responsive */
+{
+	.div-responsive {
+		background: green;
+	}
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px){
+	.div-responsive {
+		background: yellow;
+	}
+}
