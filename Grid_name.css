@@ -1,6 +1,7 @@
 /*Line-name: for replace the grid-row and grid-column */
-/*Shorthand
-grid-template */
+/*Shorthand: abbreviate the code
+grid-template: row / columns (grid container) 
+grid-template: area unity*/
 
 body {
 	background: radial-gradient(circle, #fff, #bbb) /*Effect grey-while of the all website */
