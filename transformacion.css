@@ -1,0 +1,41 @@
+/*Transform: transform the element, where the transforms receive functions
+
+- transform: translateX(x) - translateY(y) translate(x - x,y) (if we use porcentage then these are relative porcentage
+to the element) - recommended for animation
+
+- transform: scale(xy - x, y) - scaleX(x) - scaleY(y)
+- transform: rotate(angleUnit) - rotateX(angleUnit) - rotateZ(angleUnit)- rotate3D(angleUnit) || angleUnit = deg - grad - rad - turn
+- transform: skew(angleUnit) */
+
+.container {
+	padding: 20px 5px;
+	background: #86f;
+}
+
+.caja {
+	background: #025;
+	height: 80px;
+	width: 80px;
+	margin: 20px;
+	display: flex;
+	color: #fff;
+	/*the first of type of transformation is change of move the object for axis x or y or z called tranlate*/
+	transform: translateX(50px); /*move in the axis x 50px 
+	translate(x, y) use for move in the axis x and y*/
+	transform: scale(2);/*change the size of the element, with the value 2 we can make the element double the original size
+	we can change the scale of element according to the axis (scaleX and scaleY) */
+	transition: transform 1s;
+	transform: skew(30deg); /*skew change shape of the element (angle of
+	slope) 
+	USE CLIP -PATH GENERATOR*/
+
+}
+
+.caja:hover {
+	transform: scaleX(2) translate(40px); /*can give more porperties  to transform */
+}
+
+b {
+	margin: auto;
+	transform: skew(-30deg); /*Avoid deformation of the content */
+}
