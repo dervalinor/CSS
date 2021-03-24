@@ -1,0 +1,28 @@
+/*Variables: space in memory for save a date, exist two typies of varaibles the local and the global
+- varName
+- var() */
+
+/*equal in programming where to the variable we must give a value */
+
+/*Global variable: everyone selector can use this */
+:root {
+	--color-rojo: #f40;
+}
+
+div {
+	padding: 30px;
+	height: 150px;
+	width: 150px;
+	margin: 30px;
+}
+
+/*for use a variable use var(Name_variable) */
+.container {
+	background: var(--color-rojo);
+}
+
+/*we can redefine the variable */
+.container2 {
+	--color-rojo:red;
+	background: var(--color-rojo);
+}
