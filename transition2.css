@@ -1,0 +1,44 @@
+.container {
+	background: #86f;
+	padding: 20px 5px;
+}
+
+.caja {
+	background: #025;
+	height: 100px;
+	width: 100px;
+	transition-property: left, background; /*give the property for have transition */
+	transition-duration: 1.5s, 1s; /*indicate the time of the transition of the left and the background*/
+	transition-delay: 1s; /*how long pass for show the transition */
+	margin: 30px;
+	/*background: inherit; /*inherit for heredate this property */
+	position: relative;
+	left: 0;
+	/*transition-timing-function: /*the velocity of the transition in function of the time*/
+
+}
+
+.container:hover > .caja { /*when the mause over the container then move all the box */
+	left: 80%;
+	background: green;
+}
+
+.caja:first-child {
+	transition-timing-function: linear;
+}
+
+.caja:nth-child(2) {
+	transition-timing-function: ease;/*value for default */
+}
+
+.caja:nth-child(3) {
+	transition-timing-function: ease-in;
+}
+
+.caja:nth-child(4) {
+	transition-timing-function: ease-out;
+}
+
+.caja:nth-child(5) {
+	transition-timing-function: ease-in-out;
+}

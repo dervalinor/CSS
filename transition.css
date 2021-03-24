@@ -1,0 +1,32 @@
+/*Transition: create tansition inside of the elemets and show the changes of a state to other 
+
+- transition property: property/ies - all . none (it must have a only value)
+-transition-durantion: durantion/s (it must have a only value)
+-transition-delay: delay/s
+-transition-timing-function: linear | ease | ease-in | ease-out | ease-in-out | step-start | step-end | step(int, start|end) | 
+initial | inherit
+-transition -- this resume all the property of transition*/
+
+.container {
+	height: 400px;
+	background: #86f;
+	padding: 30px;
+}
+
+/*hover let us change for case the color of the element to pass the mause over this
+and now we apply a transition for watch the change of color in an interval of time */
+
+.caja {
+	background: #025;
+	height: 100px;
+	width: 100px;
+	/*transition-property and transition-duration are OBLIGATORY */
+	transition-property: background; /*indicate the property where we want see the transition */
+	transition-duration: 1.5s; /*indicate the time of the transition */
+	transition-delay: 1s; /*how long pass for show the transition */
+}
+
+
+.caja:hover {
+	background: red;
+}
