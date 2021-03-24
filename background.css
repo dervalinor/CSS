@@ -1,0 +1,20 @@
+/*Background:
+
+background-color: color;
+background-image: url();!!!!
+background-size: x, y, auto, cover, contain
+background-position: left - top - bottom - right - center ++ left - top - bottom - right - center
+background-attachment: scroll | fixed | inherit
+backgroundl-clip: border-box | padding-box | content-box 
+background-origin: 
+*/
+
+.container {
+	background-color: grey;
+	background-image: url(/home/der/Dokumente/CSS/imagenes/liinaliis.jpg); /*url give the address of the image */
+	width: 500px;
+	height: 500px;
+	/*background-size: 100% 100%;put the image to original size, here we give 100% in x and 100% in y */
+	background-size: cover;/*best option for image fix to resolution of the box */
+	background-repeat: no-repeat;/*how many do you want to repeat the image */
+}
