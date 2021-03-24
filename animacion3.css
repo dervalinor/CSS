@@ -1,0 +1,40 @@
+/*Concep to Cubic bezier: this is the curve of animation and is a property of 
+animation-timing-function for create animations with different type of velocity 
+ */
+.container {
+	background: #86f;
+	padding: 20px 5px;
+}
+
+.caja {
+	background: #025;
+	height: 100px;
+	width: 100px;
+	margin: 20px;
+	/*Obligatory give the animation-name and the animation-duration */
+	animation-name: desplazamiento;
+	animation-duration: 2s;
+	position: relative; 
+	animation-iteration-count: infinite;
+	animation-direction: alternate; 
+	animation-fill-mode: both;
+	animation-delay: 1s;/*time before of show the animation */
+	animation-timing-function: cubic-bezier(0.04, 1.08, 0.76, 1.11); /*cubic-bezier(x1, y1, x2, y2) coordenate of the two point for modify 
+	the curve */
+}
+
+@keyframes desplazamiento {
+	0% {
+		left: 0;
+		background: #025;
+	}
+
+	50% {
+		background: red;
+	}
+
+	100% {
+		left: 80%;
+		background: green;
+	}
+}

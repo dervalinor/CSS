@@ -1,0 +1,46 @@
+/*Animation
+
+property: 
+
+the animation require: @keyframes
+
+- animation-name: name
+- animation-duration: duration/s 
+- animatio-delay: delay
+- animation-timing-function: (transition-value)
+- animation-iteration-count: number
+- animation-fill-mode: none | forward | backward | both | initial | inherit
+- animation-direction: normal | reverse | alternate | alternate-reverse
+*/
+
+.container {
+	background: #86f;
+	padding: 20px 5px;
+}
+
+.caja {
+	background: #025;
+	height: 100px;
+	width: 100px;
+	margin: 20px;
+	/*Obligatory give the animation-name and the animation-duration */
+	animation-name: desplazamiento;
+	animation-duration: 3s;
+}
+
+/*if we want move the box for the container */
+/*@keyframes name_animation */
+@keyframes desplazamiento {
+	/* exis to way for crate animation
+	1.	from -- the initial property
+		to -- property to the end 
+	2. 	0% to 100% */
+	from {
+		position: relative;
+		left: 0;
+	}
+
+	to {
+		left: 80%;
+	}
+}
