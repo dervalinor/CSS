@@ -1,0 +1,25 @@
+/*Other property, function and selector css
+
+- direction: ltr | rtl | initial | inheret
+- Letter spacing
+- scroll-behavior
+- user-selected
+- text-shadow
+
+-- attr()
+ */
+
+ /*Direction: change the order of element or letter of right to left ...  */
+
+ .container {
+ 	padding: 20px;
+ 	background: #59f;
+ 	font-size: 20px; /*size of the letters */
+ 	direction: rtl; /*right to left */
+ }
+
+/*letter-spacing: separate the letter */
+ .container2 p {
+ 	letter-spacing: 3px; /*separate the letter 3px */
+ 	font-size: 30px;
+ }

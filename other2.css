@@ -1,0 +1,12 @@
+ /*scroll-behavior: velocity of the scroll */
+* {
+	font-size: 30px;
+	scroll-behavior: smooth;
+}
+
+#container2 {
+	background: red;
+	user-select: none;/*the user can't select the text */
+	text-shadow: 0px 0px 15px blue; /*create a shadow for the text */
+}
+

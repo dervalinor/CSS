@@ -1,0 +1,63 @@
+/*Filter:
+
+- none
+- blur (px)
+- brightness (0 - 1)
+- constrast ( number or %) 
+- drop-shadow (measure)
+- grayscale (%)
+- hue-rotate (deg)
+- invert (%)
+- opacity (%)
+- saturate (%)
+- sepia (%)
+- url("filter.svg#filter-id")
+
+filter can give more one property
+
+filter: blur(5px) constrast(4)*/
+
+div {
+	display: flex;
+	margin: 30px
+}
+
+img {
+	width: 400px;
+}
+
+.imagen1 {
+	filter: blur(5px);
+}
+
+.imagen2 {
+	filter: brightness(.4);
+}
+
+.imagen3 {
+	filter: contrast(2);
+}
+
+.imagen4 {
+	filter: drop-shadow(10px  10px 5px #000);/*create a shadow bottom */
+}
+
+.imagen5 {
+	filter: grayscale(80%); 
+}
+
+.imagen6{
+	filter: hue-rotate(180deg); /*rotate tha gamma of color */
+}
+
+.image7 {
+	filter: invert(200%); /*inver color */
+}
+
+.image8 {
+	filter: saturate(200%); /*saturate a color */
+}
+
+.imagen9 {
+	filter: sepia(1); /*convert to color sepia*/
+}
