@@ -1,0 +1,14 @@
+/*
+    Structure css
+
+    selector {
+        property: value;
+    }
+ */
+
+/*Example:  where the selector is body of html, properties are background-color and color, and values are #2F4F4F and #7FFFD4*/
+
+body {
+    background-color: #2F4F4F;
+    color: #7FFFD4;
+}
