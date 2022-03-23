@@ -6,9 +6,69 @@
     }
  */
 
-/*Example:  where the selector is body of html, properties are background-color and color, and values are #2F4F4F and #7FFFD4*/
+/*Example:  where the selector is body of html, properties is background-color, and value is #2F4F4F4*/
 
 body {
     background-color: #2F4F4F;
-    color: #7FFFD4;
+}
+
+/*Type of selector CSS:
+    1. Universal
+    2. Of type
+    3. Class
+    4. ID
+    5. For attribute
+    6. Descendant
+    7. pseudo-class
+
+*/
+
+/*Universal selector: select all the elements html */
+* {
+    color: #7FFFD4;/* all the elements with color #7FFFD4*/
+}
+
+/*selector of type: select for element html */
+
+b {
+    color:#3ced13; /*all the tags <b> have color #3ced13 */
+}
+
+/*Selector for class: use .nameclass */
+
+.new_color {
+    color: #d6ed13; /* give this color to all element with this class*/
+}
+
+/*Selector for id: use #nameid */
+
+#my-id {
+    color: #ec74da; /*A id is single, only we can use once time */
+}
+
+/*We could create any attribute and value of this in html and use as selector */
+
+[my_attribute="any_value"]{
+    color: #cae1d8
+}
+
+/*Selector for descendant: selection of a element child of other */
+
+h3 p {
+    color:#f9ee86; /*selection of p inside of a h2 */
+}
+
+/*when we want select a child element of a class */
+.h4_class b { /*select the element child of a element with class h4_class */
+    color:#e860f3;
+}
+
+.h4_class_2 p b {
+    color:#9077e9;
+}
+
+/*selector pseudo-class: when happened a event then generate selection  */
+
+h5:hover {
+    color:yellow;
 }
