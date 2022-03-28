@@ -1,0 +1,64 @@
+* {
+    background-color:#2F4F4F;
+    color:#7FFFD4;
+}
+
+/*The specificity is the hierarchy of importance in a style of selector 
+In CSS the last selector have more importance as for example:
+*/
+
+h1 {
+    color:#67df94;
+}
+
+h1 {
+    color:#ed40eb;
+}
+
+/* the color for h1 is the last order #ed40eb and no the first order*/
+
+/*In the case where we want priority to a property respect to other then
+ use specificity
+
+ Order of hierarchy of the more high to more low
+
+1. !important
+2. style in line
+3. identifiers
+4. class, pseudo-class and attribute
+5. selectors and pseudo-selectors
+
+The selectors of the same hierarchy the executions of orders are of up towards down
+
+Example: The class and attribute is in the same level of hierarchy then executions up 
+to down.
+
+ */
+
+.h2_color {
+    color:#85f15c;
+}
+
+[micolor="blue_sky"] {
+    color:#417ff2;
+}
+
+/*But when this selectors are of different hierarchy then execution the selectors of more high hierarchy */
+
+#miid {/*Show this color because the id have more hierarchy of the class and elements html */
+    color: #f22576;
+}
+
+.h3_color {
+   color: #aef225;
+}
+
+h3 {
+    color: #f21d1d;
+}
+
+/*The level hierarchy more high is !important give more important to any selector and element*/
+
+h4 {
+    color: #d6ce58 !important;
+}
