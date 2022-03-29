@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Learn css with Dalto: methodology BEM</title>
+    <link  rel = "icon" href="https://imgur.com/PcG5r6a">
+    <!--Link a file css to html -->
+    <link rel = "stylesheet" type = "text/css" href = "style/style.css" >
+  </head>
+  <body>
+
+        <div class="form">
+            <!--This mode we use the methodology BEM for know the classes who belong to this-->
+            <input type="text" class="form__input">
+            <input type="text" class="form__input">
+            <input type="text" class="form__input--changecolor">
+            <input type="text" class="form__input">
+            <input type="password" class="form__input">
+        </div>
+        
+        <!--case of child of a elements with its class -->
+        <div class="mydiv">
+            <ul class="mydiv__ul">
+                <li class"mydiv__ul-li">C++ </li>
+                <li class"mydiv__ul-li">Python</li>
+                <li class"mydiv__ul-li">Solidity</li>
+            </ul>
+        </div>
+
+  </body>
+</html>

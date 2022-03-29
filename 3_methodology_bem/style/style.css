@@ -1,0 +1,19 @@
+* {
+    background-color: #2F4F4F;
+    color: #7FFFD4;
+}
+
+/*The methodology BEM search avoid conflict a select elements for classes,    
+know the element selected from the classes*/
+
+/*If we want select the first element in the methodology BEM */
+
+.form__input:first-child {
+    color: #51d15a;
+}
+
+/*We can select a specific element using -- */
+
+.form__input--changecolor {
+    color: #da59d8;
+}
