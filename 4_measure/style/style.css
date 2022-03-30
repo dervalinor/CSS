@@ -1,0 +1,29 @@
+body {
+    background-color: #2F4F4F;
+    color: #98f0f3;
+}
+
+/*The fixed measure (px, cm, mm and pt) depend of the element inside of container */
+
+.div__ul {
+    font-size: 30px;/*This property change the size of the letters*/
+}
+
+/*The relative measure depend of the container, this adapt to resolution of container, called reponsive design */
+
+.div__div2 {/*with relative measure we can adapt all the content to this resolution*/ 
+    font-size: 30px; /*1em is equal to value in px give to the container, for this case is 1em = 30px */
+}
+
+.div__div2-h1 {
+    font-size: 2em; 
+}
+
+/*Other relative measure is vw, this fill in porcentaje of the container */
+
+.div3 {
+    font-size:30px;
+    background: #e75fe6;
+    width: 50vw; /*50% width size of the size of the container*/
+    height:50vh; /*50% height size of the contianer*/
+}
