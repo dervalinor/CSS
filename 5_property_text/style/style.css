@@ -1,0 +1,16 @@
+* {
+  background: #2F4F4F;
+  color: #98f0f3;
+}
+/*The property of text are font */
+
+.font_h1 {
+    font-size:5em;
+    font-family: Georgia, cursive; /*Typography, if no found Georgia then use cursive*/
+    line-height: 2.0; /*space of the half letter toward up and down, this case are two time these space
+    double of size of letter for margin of text*/
+    font-weight: 800;/*thickness of letter */
+    color: #98f0f3;/*color of the letter */
+}
+
+/*Way for export typography visit: fonts.google.com */

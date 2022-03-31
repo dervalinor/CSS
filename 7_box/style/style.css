@@ -1,0 +1,21 @@
+body {
+  background: #2F4F4F;
+  color: #98f0f3;
+}
+
+/*Box in block: take all the space of the container */
+
+.div__h1 {
+    background-color:#3fdb71;
+}
+
+.div__b {
+    background-color:#b028aa;/*The size of the box is base of contain*/
+}
+
+/*we can put the elements in line together in same line*/
+
+/*We can change the property of element in block and make it behave 
+as a element in line and vice versa !!!! */
+
+
