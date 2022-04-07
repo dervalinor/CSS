@@ -1,0 +1,43 @@
+body {
+  background: #2F4F4F;
+  color: #98f0f3;
+}
+
+/*Box in block: take all the space of the container */
+
+.div__h1 {
+    background-color:#3fdb71;
+}
+
+.div__b {
+    background-color:#b028aa;/*The size of the box is base of contain*/
+}
+
+/*we can put the elements in line together in same line*/
+
+/*We can change the property of element in block and make it behave 
+as a element in line and vice versa !!!! this we can make with the
+property display*/
+
+.div2__h2 {/*Element in inline we can't give width and height 
+    (only elements block)*/
+    background-color: #3daa71;
+    display: inline; /*The element in block now behave as element 
+    in line*/
+    width: 400px; /*This property no function for elements in line*/
+    height: 100px;
+}
+
+.div2__b {
+    background-color: #a844a3;
+}
+
+#changesize {
+    background-color: #003b10;
+    width:400px;/*elements in block we can give with and height */
+    height:100px;
+}
+
+.div2__p {
+    background-color: #b94a10;
+}

@@ -1,0 +1,71 @@
+/*Property of box:
+
+1. size
+2. background
+3. color
+4. image
+5. border
+6. border-radius
+7. padding
+8. margin
+9. box-shadow
+
+*/
+
+.div__h1 {
+   background-color: #de71e3; 
+   display:inline-block; /*bahave as element in line but with 
+   Property in block */
+   
+}
+
+.div__p {
+   background-color: #2da7cb; 
+   /*padding is the distance between the text and box, 
+   there are four type of padding: 
+
+   padding top: space between the part up of box and text
+   padding right: space between the part right of box and text 
+   padding left:   space between the part left of box and text
+   padding bottom:  space between the part inferior of box and text*/ 
+   padding-top:10px;
+   padding-right:20px;
+   padding-bottom:30px;
+   padding-left:40px;
+   /*The anterior code we can abbreviate */
+   padding: 10px 20px 30px 40px; 
+}
+
+.div2__p {
+    background-color: #71e3a9;
+    padding:30px;/*give to all the sides of the box 30px of padding */
+}
+
+.div3__p {
+    background-color: #4b8950;
+    padding: 20px 40px; /*give padding 20px axis x and 40px axis y
+    axis x are padding-top and padding-bottom 
+    axis y are padding-right and padding-left*/
+}
+
+.div4__p {
+    background-color: #b5b74c;
+    padding: 10px 20px 30px;/*axis y: 20px 
+    padding-top: 10px, padding-bottom: 30px */
+}
+
+.div5__p {
+    background-color: #23ce94;
+    height:500px; /*height of the container */
+    width:300px; /*with of the container */
+}
+
+.div6__p {
+    /*happen if we add padding, height and width, the size of 
+    height and width is sum to padding*/
+    background-color: #bc31a7;
+    padding: 30px;
+    height:500px;
+    width:300px;
+    text-align: center; /*center the contain*/
+}

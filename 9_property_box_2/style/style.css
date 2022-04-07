@@ -1,0 +1,60 @@
+/*Margin is the space between the box */
+
+.div {
+    background-color: #35a5ee;
+    margin:50px; /*give a all the sides a space of 50px */
+    height: 100px;
+}
+
+.div2 {
+    background-color: #5ae3ef;
+    /*similar to padding we have margin-bottom, 
+    margin-top, margin-right and margin-left */
+    margin: 10px 20px; /*margin axis x 10px and margin axis y 20 px */
+    height:100px;
+    border-radius: 40px; /*round the box */
+}
+
+.div3 {
+    background-color: #4257d0;
+    height: 100px;
+    margin: 20px;
+    border-radius: 20px;
+    /*border: size style color */
+    /*INVERTIGATION ALL STYLE OF BORDER */
+    border: 5px solid #e352e6;
+}
+
+/*content: this property modfidy the text, modfidy with the 
+ line-height(size of the line) */
+
+.div__h1 {
+    line-height: 30px;
+    align-content:center;
+    text-align:center;
+    border: 3px solid #0b3c5d;
+    
+}
+
+.div3 {
+    text-align: center;
+    /*box-shadow: give shadow to the box */
+    /*box-shadow: size_x size_y absense_focus border color*/
+    box-shadow: 6px 5px 5px 1px #1d8492;
+    /*text-shadow: add shadow to text 
+    text-shadow: size_x size_y absense_focus color */
+    text-shadow: 2px 2px 7px #0b3c5d; 
+}
+
+.div4 {
+   /*we can intensity the efect when we repeat the code */ 
+    text-shadow: 2px 2px 7px #0b3c5d, 2px 2px 7px #0b3c5d;
+    transform:rotate(10deg); /*Rotate the box 90 grade */
+    height: 100px;
+    width: 300px;
+    margin: 100px;
+    font-size: 30px;
+    text-align:center;
+    padding: 20px;
+    background-color: #e352e6;
+}
