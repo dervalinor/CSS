@@ -1,0 +1,41 @@
+/*Outline is a shorthand as padding or margin, this property create
+ a border but without to the other box, use for stick out a element*/
+
+/*.box1 {
+    height:200px;
+    width:200px;
+}
+
+.box2 {
+    height:200px;
+    width:200px;
+}*/
+
+/*Before code we can write as: */
+
+.box1, .box2, .box3, .box4 { /*give the same property to two elements*/
+    height:200px;
+    width:200px;
+    margin: auto; /*center the box */
+}
+
+.box1 {
+    background-color: #d443cc;
+    outline: 10px solid #87d443; /*No take space of the box */
+}
+
+.box2 {
+    background-color: #4396d4;
+}
+
+
+.box3 {
+    margin-top: 20px;
+    background-color: #d4ce43;
+    border: 10px solid #87d443; /*while border take space of box */
+    /*The border take a real place, while outline no take real space */
+}
+
+.box4 {
+    background: #d443d2;
+}
