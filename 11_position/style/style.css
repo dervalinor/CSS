@@ -1,0 +1,42 @@
+/*Position: change position of a element in the tream htm.
+stream html: read the element of up to down
+
+1. STATIC
+2. RELATIVE
+3. ABSOLUTE
+4. FIXED
+5. STICKY
+
+*/
+
+div {
+    width: 120px;
+    height: 120px;
+    display: block;
+}
+
+.box1 {
+    background: #66d443; 
+}
+
+.box2 {
+    background: #d443ba;
+    position: relative;/*the space of the box is conserved */
+    /*give a property position the box acquire the properties:
+    top, left, right and bottom, this change the position of the box*/
+    top: 200px;
+    left: 30px;
+}
+
+.box3 {
+    background: #d1d443;
+}
+
+.box4 {
+    background: #d44378;
+    position: relative;
+    /*we can give negative values */
+    top: -200px; /*bottom: 200px */
+}
+
+
