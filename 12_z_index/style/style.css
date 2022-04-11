@@ -1,0 +1,39 @@
+/*The property top and left have more hierarchy that bottom and right*/
+
+/*other property of position z-index order the element in axis z 
+ The value more high of z-index then this elements will ahead
+ of all the elements*/ 
+div {
+    width: 120px;
+    height: 120px;
+    display: block;
+}
+
+/*We have the box 2 for ahead of the other box, but we want
+put the box 3 above the box 2*/
+
+.box1 {
+    background: #43d4b3;
+}
+
+.box2 {
+    background: #d4ce43;
+    position: relative;
+    top: 20px;
+    left: 30px;
+    /*For default the z-index is zero */
+    z-index: 10;
+}
+
+.box3 {
+    background: #d443ba;
+    position: relative;/*z-index acquire when the box is positioning */
+    z-index: 100; /*Recommended put distant between this because  
+    then more edit elements, put more elements in this elements*/
+}
+
+.box4 {
+    background: #6243d4;
+}
+
+/*Remember put the name correct for the class !!!! */
