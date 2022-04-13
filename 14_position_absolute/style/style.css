@@ -1,0 +1,49 @@
+div {
+    width: 170px;
+    height: 170px;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+.box1 {
+    background: #66d443; 
+}
+
+.box2 {
+    background: #d443ba;
+    position: absolute; /*Happened the box 3 to disappear*/
+    /*the box 3 take the space of the box 2 and box 2 is above
+     of the box 3*/
+    /*This we can see remove oppacity to the box 2*/
+    opacity: .5;/* .5 == 0.5, the values are between 0 and 1 */
+    margin-left: 30px; /*we can see the box 2 is above the box 3*/
+    margin-top: 20px;
+}
+
+/*position absolute no reserve space for the elements and this take
+for the other elements*/
+
+.box3 {
+    background: #d1d443;
+    padding-top: 50px;
+}
+
+/*Now the point of reference is container(or body) */
+
+
+.container {
+    margin: 100px;
+}
+
+.box4 {
+    background: #43d49e;
+}
+
+.box5 {
+    background: #d443c6;
+}
+
+.box6 {
+    background: #c9d443;
+}

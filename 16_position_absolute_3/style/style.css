@@ -1,0 +1,30 @@
+/*Now if we remove width and height then the elements 
+ adapt to the size of content*/
+div {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    position: absolute;/*The box adapt to size of text as  
+    elements in block this the difference between position relative
+    and position absolute */
+}
+
+.container {
+    margin: 100px;
+}
+
+.box4 {
+    background: #43d49e;
+}
+
+.box5 {
+    background: #d443c6;    
+}
+
+.box6 {
+    background: #c9d443;/*Without position absolute the elements 
+    behavoir as elements in block*/
+    padding-top: 50px;
+}
+
+

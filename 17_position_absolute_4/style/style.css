@@ -1,0 +1,30 @@
+/*Now we will put the boxs to the sides of the container */
+
+div {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+}
+
+.container {
+    position: static; /*value for default */
+    margin: 100px;
+    border: 4px solid #656c2a;
+    margin: 50px auto; /*property auto for center all the content */
+    /*give margin x 50px and margin y auto this center */
+    height: 500px;
+    width: 500px;
+}
+
+.box4 {
+    background: #43d49e;
+}
+
+.box5 {
+    background: #d443c6;    
+}
+
+.box6 {
+    background: #c9d443;    
+}
