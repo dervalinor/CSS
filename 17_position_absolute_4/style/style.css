@@ -1,4 +1,4 @@
-/*Now we will put the boxs to the sides of the container */
+/*Now we will put the boxs in all sides of the container */
 
 div {
     display: block;
@@ -7,8 +7,12 @@ div {
     position: absolute;
 }
 
+div div {
+    background: #c6cf13;
+}
+
 .container {
-    position: static; /*value for default */
+    position: relative; /*use the container as point of reference */
     margin: 100px;
     border: 4px solid #656c2a;
     margin: 50px auto; /*property auto for center all the content */
@@ -18,13 +22,30 @@ div {
 }
 
 .box4 {
-    background: #43d49e;
+    right: 0;
+    bottom: 0;
+
 }
 
 .box5 {
-    background: #d443c6;    
+    right: 0;
 }
 
 .box6 {
-    background: #c9d443;    
+    top: 0;
+}
+
+.box7 {
+    bottom: 0;
+}
+
+/*we want to put a box in the center of the container */
+.box8 {
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100px;
+    height: 100px;
 }
