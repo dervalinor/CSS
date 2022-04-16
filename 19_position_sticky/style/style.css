@@ -1,0 +1,12 @@
+/*Position sticky is a mixture between position relative and 
+ position fixed, where keep the space of box and we could define
+ in which moment the box is fixed*/
+
+.bar_fixed {
+    background: #26ba95;
+    position: sticky;    
+    display: block;
+    top: 20px; /*the box will fixed with a top of 20px */
+    opacity: .5; /*as we can see the space is conserve */
+}
+
