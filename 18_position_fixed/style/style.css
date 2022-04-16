@@ -1,0 +1,15 @@
+/*Position fixed is similar to position absolute 
+but the element is fixed in a place even when we will 
+move the scroll as the bar of menu of a website as youtube
+ */
+
+.bar_fixed {
+    background: #26ba95;
+    position: fixed; /*The size of box adapt to the content */
+    display: block;
+    margin: -100px; /*evoid to cover the content with bar fixed */
+}
+
+body {
+    padding-top: 100px;
+}
