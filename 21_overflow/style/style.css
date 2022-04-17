@@ -1,0 +1,27 @@
+/* Overflow let us modify the bar of the scroll
+
+overflow:
+
+- auto
+- scroll
+
+ */
+
+div {
+    margin: auto;
+    margin-top: 50px;
+    width: 400px;
+    height: 400px;
+    border: 3px solid #45dab4;
+}
+
+.div_scroll_1 {
+    /*as the content exceed the size of the box then use a scroll */
+    overflow: auto;/*auto detect which direction need a scroll*/
+}
+
+.div_scroll_2 {
+    /*Overflow is a shorthand*/
+    overflow-x: scroll;/*scroll put a scroll a any direction */
+    overflow-y: hidden;/*hidden the scroll */
+}
