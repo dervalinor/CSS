@@ -1,0 +1,28 @@
+/*We want put the two text ahead of the other */
+
+.container {
+}
+
+.container div {
+    width: 50%;
+    float: right;
+}
+
+.first {
+    background: #29a257;
+}
+
+.second {
+    background: #299fa2;
+}
+
+.container2 {
+  width: 50%; 
+  padding: 30px;
+}
+
+.container2 img {/*The text wrap the image */
+    width: 40%;
+    float: left;
+    margin-right: 18px;
+}
