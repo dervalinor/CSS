@@ -1,0 +1,18 @@
+/*Before - let to add content before of the element in this case text-alignbefore to b */
+
+.container {
+    padding: 30px;
+    background: #26a59a;
+    text-align: center;
+}
+
+b::before { /*The pseudo element before no belong to DOM*/
+    content: "Welcome ";
+    color: #e94ff1;
+}
+
+/*after - let to add content after of the element */
+b::after {
+    content: " Happy Hotel";
+    color: #57f14f;
+}

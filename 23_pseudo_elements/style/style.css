@@ -1,0 +1,54 @@
+/*Pseudo-element: 
+
+1. ::first-line  -- BLOCK
+2. ::first-letter -- BLOCK
+3. ::placeholder
+4. ::after  -- childs - content(necessary) - INLINE
+5. ::before -- childs - content(necessary) - INLINE
+6. ::selection
+
+*/
+
+.container__text {
+    padding: 30px;
+    background: #169a8f;
+}
+
+/*Pseudo-element are apply to the elements */
+
+.container__text::first-line {/*make to refer to the first line*/
+    color: #ea76fb;                                          
+    font-size:3em;
+}
+
+.container__text::first-letter {/*modify the first letter */
+    color: #f32979;
+}
+
+form {
+    margin: 100px auto;
+    display: block;
+    background: #1ba498;
+    padding: 100px;
+    width: 50%;
+}
+
+input {
+    padding: 6px;
+    width: 100%;
+}
+
+/*Pseudo element we can change the properties of placeholder */
+
+input::placeholder {
+    color: #1ba498;
+    background: #92ede5;
+}
+
+/*when we will select a text the background and color of letter 
+change with the pseudo element selection*/
+
+.container2 p::selection {
+    color: #0d2d0a;
+    background: #72ee68;
+}
