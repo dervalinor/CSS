@@ -1,0 +1,67 @@
+/*Way for defined color:initial
+
+Color name
+RGB
+RGBA
+HSL
+HSLA
+
+*/
+
+div {
+    width: 100px;
+    height: 30px; 
+    margin: 20px;
+}
+
+/*Color name */
+
+.container1 {
+    background: darksalmon;
+}
+
+/*RGB - Red, Green and Blue are all the essential color in computation 
+mixing this three color we can make any color, give 0 to 255 for 
+each color*/
+
+/*create the color voilet - mix red and blue */
+
+.container2 {
+    background: rgb(190, 0, 255)/*Red: 200, Green: 0, Blue: 255 */
+}
+
+/*color yellow */
+
+.container3 {
+    background: rgb(255, 255, 0)
+}
+
+/*White  */
+.container4 {
+    background: rgb(255, 255, 255)
+}
+
+/*Black */
+.container5 {
+    background: rgb(0, 0, 0)
+}
+
+/*Lower the intensity to a color */
+.container6 {
+    background: rgb(100, 0, 0);
+}
+
+/*RGBA - include the four opacity of color */
+.container7 {
+    background: rgba(23, 255, 255, 0.2); /*opacity: .2 */
+}
+
+/*Hexadecimal - is a system of 16 unities (numbers: 1, 2, ... , 10
+  and letters: a, b, c, d, e, f)*/
+
+/*similar to rgba but with numbers and letters (a - lower and f - 
+ greater)*/
+ .container8 {
+    background: #aabbccaa; /*aa - red, bb - green, cc - blue
+                            aa - opacity */
+ }
