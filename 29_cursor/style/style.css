@@ -1,0 +1,14 @@
+/*cursor - Change the style of the cursor */
+
+.container {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #23ccdc;
+    background: #128a92;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.container:active {
+    cursor: row-resize;
+}
