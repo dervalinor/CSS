@@ -1,0 +1,61 @@
+/*make we make to appear the responsive menu when change resolution */
+
+* {
+    margin: 0;
+}
+
+.nav__responsive-ul {
+    display: none; /*This icon is invisible while 
+    no exist resolution of mobile or tablet*/
+}
+
+nav {
+    background: #55aaff;
+}
+
+.nav__li {
+    display: inline-block; /*put the elements one in front of other */
+    padding: 10px;
+}
+
+/*change color of the letters */
+
+.nav__li a {
+    color: #b1ffff;
+}
+
+/*Put effect when we will put the mouse in the elements of menu */
+
+.nav__li:hover > a {
+    color: #ffffff;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .nav__li {
+        display: none; /*hide the original menu and put menu responsive */
+    }
+
+    .nav {
+        height: 37px;
+        width: 100%;
+    }
+
+    .nav__responsive-ul {
+        display: block; 
+        position: absolute;
+        width: 100%;
+        background: #0af;
+    }
+
+    .nav__responsive-li {
+        width: 100%;
+        padding: 9px 20px;
+    }
+
+    .nav__responsive-li a {
+        color: #ffffff;
+        text-decoration: none; /*remove remarked of links */
+    }
+   
+}
