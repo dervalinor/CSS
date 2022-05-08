@@ -1,0 +1,33 @@
+/*adapt the resolution of a website to various 
+device as pc, mobile and tablet 
+
+mobile first - create a website for resolution of mobile
+and adapt to other resolution as pc or tablet
+ */
+
+div {
+    width: 45%;
+    display: inline-block;
+}
+
+.container {
+    background: #aa00ff;
+}
+
+.container2 {
+    background: #ff00ab;
+}
+
+/*when the screen reach to resolution lower to 800px 
+then change resolution for mobile
+
+Note: use the tag meta viewport
+<meta name="viewport" content="width-device-width, initial-scale=1.0">
+
+ */
+@media only screen and (max-width: 800px){
+    div {
+        display: block; /*move the content to down */
+        width: 100%;
+    }
+}

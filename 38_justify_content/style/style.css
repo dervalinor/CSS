@@ -1,0 +1,42 @@
+/*justify-content - we want center or move all the box 
+ 
+1. center
+2. space-arround
+3. space-between
+4. space-evenly
+
+ */
+
+div {
+    display: flex;     
+    text-align: center;
+    flex-flow: row wrap; 
+}
+
+div div {
+    background: #00bbffff;
+    margin: 5px;
+    height: 120px;
+    width: 120px;
+   
+}
+
+.flex-container {
+    justify-content: center;
+}
+
+.verde {
+    background: #00ff00;
+}
+
+.flex-container2 {
+    justify-content: space-around;/*Similar to margin:auto */
+}
+
+.flex-container3 {
+    justify-content: space-between;/*Give a margin automatic to all the boxes*/ 
+}
+
+.flex-container4 {
+    justify-content: space-evenly;/*All the boxes have the same margin */
+}

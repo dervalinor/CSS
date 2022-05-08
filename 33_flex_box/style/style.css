@@ -1,0 +1,26 @@
+/*flex is composed of flex-container and flex-item  and have two
+ axis:
+
+1. main axis (axis x) - start in side left (main-start) and end in side right
+(main-end)
+
+2. cross axis (axis y) - start in side up (cross-start) and end in side downall:
+(cross-end)
+
+main axis and cross axis are directions and with flex we can change this 
+this directions.
+
+ */
+
+/*flex adapt the content according to the container */
+.flex-container {
+    display: flex;/*The content put one in front of other */
+}
+
+/*flex box the height is a constant when we add new content 
+change the dimensions of the box*/
+.flex-item {
+    background: #10aaffaa;
+    padding: 10px;
+    margin: 20px;
+}

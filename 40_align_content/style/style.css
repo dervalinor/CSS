@@ -1,0 +1,28 @@
+/*Align-content: use for elements in more line of elements  
+ 
+1. flex-start 
+2. center
+3. flex-end
+4. stretch
+5. baseline (cross axis)
+
+ */
+
+div {
+    display: flex;     
+    text-align: center;
+    flex-flow: row wrap;
+    justify-content: center;
+    height: 100vh;
+}
+
+.flex-container {
+    Align-content: flex-start;
+}
+
+.flex-item {
+    background: #00ccffff;
+    margin: 5px;
+    height: 120px;
+    width: 120px;
+}

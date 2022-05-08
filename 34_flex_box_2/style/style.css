@@ -1,0 +1,13 @@
+/*Now we are goint to direction of main axis for put the box in vertical
+with flex-direction*/
+.flex-container {
+    display: flex;
+    flex-direction: column; /*change direction of main-axis */
+}
+
+.flex-item {
+    background: #00bbffff;
+    margin: 5px;
+    height: 120px;
+    width: 120px;
+} 

@@ -1,0 +1,23 @@
+.flex-container {
+    display: flex; /*container isn't flex box only the flex-item (elements
+    inside of container) */
+    flex-direction: row; 
+    text-align: center;
+    flex-wrap: wrap;/*the box keep its size and it will throw 
+                     one down other when the resolution is small*/
+}
+
+.flex-item {
+    background: #00bbffff;
+    margin: 5px;
+    height: 120px;
+    width: 120px;
+} 
+
+.verde {
+    background: #00ff00;
+}
+
+.rojo {
+    background: #ff0000;
+}

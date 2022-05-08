@@ -1,0 +1,22 @@
+.flex-container {
+    display: flex;     
+    text-align: center;
+    /*We can abbreviate flex-direction: row and flex-wrap: wrap
+    with: */
+    flex-flow: row wrap-reverse; /*wrap-reverse throw the box towards up */
+}
+
+.flex-item {
+    background: #00bbffff;
+    margin: 5px;
+    height: 120px;
+    width: 120px;
+} 
+
+.verde {
+    background: #00ff00;
+}
+
+.rojo {
+    background: #ff0000;
+}

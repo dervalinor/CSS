@@ -1,0 +1,38 @@
+/*Object-fill: property apply to the pictures
+
+
+1. contain
+2. cover
+3. none
+4. scale-down
+
+ */
+
+div {
+    width: 300px;
+    height: 400px;
+    margin: 30px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #2ecded;
+}
+
+.container img {
+    object-fit: contain; /*the picture ajust a the resolution 
+    according to the size of the box*/
+}
+
+.container2 img {
+   object-fit: cover;/*ajust to the size of the box without empty */
+}
+
+.container3 img {
+    object-fit: none; /*take original size of the picture */
+}
+
+.container4 img {
+    object-fit: scale-down; /*choose the best property for image */
+}
