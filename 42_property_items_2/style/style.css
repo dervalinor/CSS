@@ -1,0 +1,23 @@
+/*Margin for items */
+
+.flex-container {
+    display: flex;     
+    text-align: center;
+    height: 100vh;
+    flex-flow: row wrap;
+}
+
+.flex-item {
+    background: #00ccffff;
+    margin: 5px;
+    height: 120px;
+    width: 120px;
+    /*this way we can change the position of the boxes */
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    /*Anterior code we can abbreviature as: */
+    margin: auto;
+    /*Margin function of this way only for the items */
+}

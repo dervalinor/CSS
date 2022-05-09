@@ -1,0 +1,32 @@
+/*flex-grow - take the spare space and distribute between the boxes */
+
+div {
+    display: flex;     
+    text-align: center;
+    height: 100vh;
+    flex-flow: row wrap;
+}
+
+div div {
+    background: #00ccffff;
+    margin: 5px;
+    height: 120px;
+    min-width: 200px;
+}
+
+.flex-item {
+    min-width: 250px;/*minimum value of width */
+    flex-grow: 1; /*distribute all the spare space */
+}
+
+/*We can give this property too to only element */
+
+.verde {
+    background: #00ff00;
+    flex-grow: 1;
+}
+
+.azul {
+    background: #0000ff;
+    flex-grow: 2; /*Take two portion of spare space */
+}

@@ -1,0 +1,33 @@
+/* Property of the items:
+we give the Property of the item 
+
+1. align-self
+2. flex-grow
+3. flex-shrink
+4. flex-basis
+5. flex: flex-grow, flex-shrink, flex-basis
+6. order
+
+ */
+
+.flex-container {
+    display: flex;     
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    flex-flow: row wrap;
+}
+
+.flex-item {
+    background: #00ccffff;
+    margin: 5px;
+    height: 120px;
+    width: 120px;
+}
+
+/*we want throw a only box down in this case of green box*/
+.verde {
+    background: #00ff0a;
+    /*Modofy the direction of the box in across axis */
+    align-self: flex-end;
+}

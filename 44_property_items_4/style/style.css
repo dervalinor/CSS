@@ -1,0 +1,26 @@
+/*flex-basis - similar to width but for flex */
+
+div {
+    display: flex;     
+    text-align: center;
+    height: 100vh;
+    flex-flow: row wrap;
+}
+
+div div {
+    background: #00ccffff;
+    margin: 5px;
+    height: 120px;
+    min-width: 200px;
+}
+
+.flex-item {
+    min-width: 250px;
+    flex-grow: 1;
+}
+
+.verde {
+    background: #00ff00;
+    width: 100px;
+    flex-basis: 200px;/*flex-basis is more important than width*/
+}

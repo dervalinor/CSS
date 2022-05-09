@@ -1,0 +1,28 @@
+/*order - similar to z-index but in the axis of main axis*/
+
+.flex-container {
+    display: flex;     
+    text-align: center;
+    height: 100vh;
+}
+
+
+.flex-item {
+    min-width: 250px;
+    flex-grow: 1;
+    background: #00ccffff;
+    margin: 5px;
+    height: 120px;
+    min-width: 150px;
+    width: 300px;
+   
+}
+
+.verde {
+    background: #00ff00;
+    flex-shrink: 4;
+}
+
+.azul {
+    background: #0023ff;
+    flex: 1 0 200px;}
