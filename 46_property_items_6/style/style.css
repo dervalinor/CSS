@@ -18,11 +18,14 @@
    
 }
 
+/*The element of with bigger take the last position in the main-axis */
 .verde {
     background: #00ff00;
     flex-shrink: 4;
+    order: 4;/*Move to the last direction of main-axis */
 }
 
 .azul {
     background: #0023ff;
-    flex: 1 0 200px;}
+    flex: 1 0 200px;
+}
