@@ -1,0 +1,41 @@
+/*create a form of email */
+
+.flex-container {
+    display: flex;
+    align-items: center;/*center content vertically */
+    flex-wrap: wrap;/*design responsive */
+    justify-content: center;
+    background: #145b77;
+    margin: 50px 50px;
+}
+
+.form {
+    min-width: 400px;
+    flex: 1;/*flex-grow: 2 */
+    text-align: center;
+    padding: 30px;
+}
+
+.form-img {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+}
+
+.form__input {
+    width: 100%;
+    padding: 7px;
+    margin: 6px 0; /*Margin 7px lateral*/
+}
+
+.form-img img {
+    width: 50%;
+    margin: auto;/*Center the image*/
+    border-radius: 50%;/*create circle around of the image*/
+    background: #073446;
+    padding: 20px;
+}
+
+.form textarea {
+    height: 140px;
+}
